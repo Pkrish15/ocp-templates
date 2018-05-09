@@ -7,5 +7,5 @@ The Main purpose of the Repository is create objects in Openshift using template
 2) Usage: oc login -u prakrish-redhat.com -p xxxxxx https://master.dev39.openshift.opentlc.com/
 3) oc new-app https://raw.githubusercontent.com/Pkrish15/ocp-templates/master/spark-template.yaml
 4) oc expose svc/spark-master-webui
-5) You can view your spark nodes http://spark-master-webui-tk.apps.dev39.openshift.opentlc.com/ replace tk with your own project namespace.
+5) You can view your spark nodes http://spark-master-webui-tk.apps.dev39.openshift.opentlc.com/ replace "tk" with your own project namespace.
   
