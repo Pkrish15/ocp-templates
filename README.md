@@ -9,7 +9,7 @@ The Main purpose of the Repository is create objects in Openshift using template
 4) oc expose svc/spark-master-webui
 5) You can view your spark nodes http://spark-master-webui-tk.apps.dev39.openshift.opentlc.com/ replace "tk" with your own project namespace.
   
-# Kafka-Template.yaml.
+# Kafka-Template.yaml
 
 1) This template will create a Kafka cluster on your openshift environment.
 2) Usage: oc login -u prakrish-redhat.com -p <XXXyourpasswordXXX> https://master.dev39.openshift.opentlc.com/
