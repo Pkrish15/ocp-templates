@@ -13,4 +13,6 @@ The Main purpose of the Repository is create objects in Openshift using template
 
 1) This template will create a Kafka cluster on your openshift environment.
 2) Usage: oc login -u prakrish-redhat.com -p <XXXyourpasswordXXX> https://master.dev39.openshift.opentlc.com/
-3) oc new-app apache-kafka.
+3) oc create -f https://raw.githubusercontent.com/Pkrish15/ocp-templates/master/resources.yaml
+4) oc new-app apache-kafka
+  
